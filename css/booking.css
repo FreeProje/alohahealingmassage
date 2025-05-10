@@ -1,0 +1,177 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.top {
+    margin-top: 50px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.text-book {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 20px;
+}
+
+.item-selected-flex {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.massage-type-selected {
+    margin: 10px;
+}
+
+.item-selected {
+    margin-top: 30px;
+}
+
+.texts {
+    margin: 20px;
+}
+
+.flex-form {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+form {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.label {
+    margin-top: 16px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+}
+
+.left-part {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.timing {
+    margin-top: 15px;
+}
+
+button {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+    padding: 20px 10px;
+    background-color: orange;
+}
+
+.third-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.third-section-container {
+    width: 300px;
+}
+
+@media (max-width: 760px) {
+    .third-section-container {
+        width: 100%;
+    }
+}
+
+.bi-1-circle-fill,
+.bi-2-circle-fill,
+.bi-3-circle-fill {
+    font-size: 25px;
+    color: white;
+}
+
+/* SIXTH SECTION */
+
+.sixth-section {
+    padding: 10px;
+    background-color: white;
+}
+
+.sixth-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* ENSURE SECTION */
+
+.confirm-section {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+    bottom: 2%;
+    z-index: 200;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: none;
+}
+
+.edit {
+    padding: 10px;
+    cursor: pointer;
+    width: 49px;
+}
+
+.edit:hover {
+    border-bottom: 1px solid black;
+}
+
+.ensure-part {
+    padding: 10px;
+    margin: 10px;
+}
+
+.confirm-text {
+    margin-left: 20px;
+}

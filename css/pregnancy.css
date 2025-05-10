@@ -1,0 +1,363 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+}
+
+.middle-top {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.choosen {
+    cursor: pointer;
+}
+
+.choosen:hover {
+    /*color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;*/
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.bi-list {
+    display: none;
+}
+
+.top-book-btn {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.top-book-btn:hover {
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+}
+
+@media (max-width: 820px) {
+    .middle-top {
+        display: none;
+    }
+
+    .bi-list {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .top-book-btn {
+        display: none;
+    }
+    
+}
+
+/* MENU SECTION */
+
+.menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 20%;
+    bottom: 0px;
+    padding: 20px;
+    background-color: white;
+    z-index: 111;
+    display: none;
+}
+
+.bi-x-lg {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.this-menu {
+    margin-top: 50px;
+}
+
+.menu-select {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.menu-select:hover {
+    background-color: gray;
+}
+
+/* MASSAGE TYPE */
+
+.type {
+    margin-top: 80px;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.type-flex {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.type-container1 {
+    background-image: url('../img/pre-natal.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 20px 20px;
+    width: 300px;
+}
+
+.type-container2 {
+    background-image: url('../img/post-natal.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 20px 20px;
+    width: 300px;
+}
+
+.type-container3 {
+    background-image: url('../img/Pregnancy\ glow\ facial.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 20px 20px;
+    width: 300px;
+}
+
+.type-container4 {
+    background-image: url('../img/Pregnancy-safe\ osteopathy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 20px 20px;
+    width: 300px;
+}
+
+@media(max-width: 820px) {
+    .type-container1 {
+        background-image: url('../img/pre-natal.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50% 20px 20px;
+    }
+    
+    .type-container2 {
+        background-image: url('../img/post-natal.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50% 20px 20px;
+    }
+    
+    .type-container3 {
+        background-image: url('../img/Pregnancy\ glow\ facial.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50% 20px 20px;
+    }
+    
+    .type-container4 {
+        background-image: url('../img/Pregnancy-safe\ osteopathy.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50% 20px 20px;
+    }
+
+}
+
+button {
+    margin-top: 20px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+}
+
+/* THIRD SECTION */
+
+.third-section {
+    padding: 20px 10px;
+    background-color: white;
+}
+
+.third-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.third-section-container {
+    width: 300px;
+}
+
+@media (max-width: 760px) {
+    .third-section-container {
+        width: 100%;
+    }
+}
+
+.bi-1-circle-fill,
+.bi-2-circle-fill,
+.bi-3-circle-fill {
+    font-size: 25px;
+    color: orange;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section {
+    padding: 30px 10px;
+}
+
+.img-moving {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.reel-container {
+    position: relative;
+    border-radius: 10px;
+}
+
+.fourth-images {
+    border-radius: 10px;
+}
+
+/* FIFTH SECTION */
+
+.fifth-section {
+    padding: 30px 10px;
+    background-image: url('../img/high-angle-old-telephone-table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-section {
+    width: 280px;
+    margin: 20px auto;
+    display: block;
+}
+
+form {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+}
+
+textarea {
+    width: 97%;
+    height: 120px;
+}
+
+.send-btn {
+    display: block;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.send-btn:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.social-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.bi-facebook {
+    cursor: pointer;
+    font-size: 25px;
+    color: blue;
+}
+
+.bi-whatsapp {
+    cursor: pointer;
+    font-size: 25px;
+    color: green;
+}
+
+.bi-telegram {
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(3, 155, 237);
+}
+
+.bi-twitter-x {
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+
+/* SIXTH SECTION */
+
+.sixth-section {
+    padding: 10px;
+    background-color: white;
+}
+
+.sixth-section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
